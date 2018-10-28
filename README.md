@@ -1,24 +1,14 @@
-# README
+# Rails Quick Start
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby: 2.5.3
+* Rails: 5.2.1
+* Database: Postgres.
 
-Things you may want to cover:
+What do you need to start this project:
+1. A Ruby Package Manager (rbenv or rvm).
+2. A Postgres database Running on your local computer.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Instructions:
+1. Setup with a package manager your ruby local version to 2.5.3
+2. Run 'rake db:create' in your terminal window to create the database.
+3. Run 'rails s' to start the Server.
